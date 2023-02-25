@@ -33,21 +33,23 @@ extern void AssetBundle_LoadAllAssetsAsync_m6BF82A05B486AA713460D4BC836E1445F2B4
 extern void AssetBundle_LoadAssetAsync_Internal_m2F3749CA103E883447AE6629E342D4C0D39A2FBE (void);
 // 0x0000000B System.Void UnityEngine.AssetBundle::Unload(System.Boolean)
 extern void AssetBundle_Unload_m0A189871E61A0D6735A2B41B3360A1F0677B636B (void);
-// 0x0000000C UnityEngine.AssetBundleRequest UnityEngine.AssetBundle::LoadAssetWithSubAssetsAsync_Internal(System.String,System.Type)
+// 0x0000000C System.String[] UnityEngine.AssetBundle::GetAllScenePaths()
+extern void AssetBundle_GetAllScenePaths_m75D1CD4415067D64A8265A7929B6FF76B91B62FE (void);
+// 0x0000000D UnityEngine.AssetBundleRequest UnityEngine.AssetBundle::LoadAssetWithSubAssetsAsync_Internal(System.String,System.Type)
 extern void AssetBundle_LoadAssetWithSubAssetsAsync_Internal_m9C189D40BB6E14EFB7432173EC273BE9C5E900D4 (void);
-// 0x0000000D UnityEngine.Object UnityEngine.AssetBundleRequest::GetResult()
+// 0x0000000E UnityEngine.Object UnityEngine.AssetBundleRequest::GetResult()
 extern void AssetBundleRequest_GetResult_mC1C60D584906835F86BF82C44E8B62B6EB9171D6 (void);
-// 0x0000000E UnityEngine.Object UnityEngine.AssetBundleRequest::get_asset()
+// 0x0000000F UnityEngine.Object UnityEngine.AssetBundleRequest::get_asset()
 extern void AssetBundleRequest_get_asset_mE9FDA3900215925371E7D15E7E19AA98713F5D6C (void);
-// 0x0000000F UnityEngine.Object[] UnityEngine.AssetBundleRequest::get_allAssets()
+// 0x00000010 UnityEngine.Object[] UnityEngine.AssetBundleRequest::get_allAssets()
 extern void AssetBundleRequest_get_allAssets_mCA7BF6BCBBDA2E6DF596655254842B5380B4919D (void);
-// 0x00000010 System.Void UnityEngine.AssetBundleRequest::.ctor()
+// 0x00000011 System.Void UnityEngine.AssetBundleRequest::.ctor()
 extern void AssetBundleRequest__ctor_mD73743E1532E41D8AD2871C00A7FCDA5157171C0 (void);
-// 0x00000011 UnityEngine.AssetBundle UnityEngine.AssetBundleCreateRequest::get_assetBundle()
+// 0x00000012 UnityEngine.AssetBundle UnityEngine.AssetBundleCreateRequest::get_assetBundle()
 extern void AssetBundleCreateRequest_get_assetBundle_m613FDE589FB86BE1E6920D38ED0706F785D9DB21 (void);
-// 0x00000012 System.Void UnityEngine.AssetBundleCreateRequest::.ctor()
+// 0x00000013 System.Void UnityEngine.AssetBundleCreateRequest::.ctor()
 extern void AssetBundleCreateRequest__ctor_mAD1A6314795AC1B548A29A32E01815D33B6D0B46 (void);
-static Il2CppMethodPointer s_methodPointers[18] = 
+static Il2CppMethodPointer s_methodPointers[19] = 
 {
 	AssetBundle__ctor_m12989CA081324BB49ED893BDA5E3B4E758D61410,
 	AssetBundle_LoadFromFileAsync_Internal_mB3D099E653D4AF91E5EA8CDCC49E8AB1BBAB764B,
@@ -60,6 +62,7 @@ static Il2CppMethodPointer s_methodPointers[18] =
 	AssetBundle_LoadAllAssetsAsync_m6BF82A05B486AA713460D4BC836E1445F2B45DB9,
 	AssetBundle_LoadAssetAsync_Internal_m2F3749CA103E883447AE6629E342D4C0D39A2FBE,
 	AssetBundle_Unload_m0A189871E61A0D6735A2B41B3360A1F0677B636B,
+	AssetBundle_GetAllScenePaths_m75D1CD4415067D64A8265A7929B6FF76B91B62FE,
 	AssetBundle_LoadAssetWithSubAssetsAsync_Internal_m9C189D40BB6E14EFB7432173EC273BE9C5E900D4,
 	AssetBundleRequest_GetResult_mC1C60D584906835F86BF82C44E8B62B6EB9171D6,
 	AssetBundleRequest_get_asset_mE9FDA3900215925371E7D15E7E19AA98713F5D6C,
@@ -68,26 +71,27 @@ static Il2CppMethodPointer s_methodPointers[18] =
 	AssetBundleCreateRequest_get_assetBundle_m613FDE589FB86BE1E6920D38ED0706F785D9DB21,
 	AssetBundleCreateRequest__ctor_mAD1A6314795AC1B548A29A32E01815D33B6D0B46,
 };
-static const int32_t s_InvokerIndices[18] = 
+static const int32_t s_InvokerIndices[19] = 
 {
-	5994,
-	7432,
-	8586,
-	7988,
-	2267,
-	2267,
-	5869,
+	5995,
+	7433,
+	8587,
+	7989,
+	2268,
+	2268,
+	5870,
 	0,
-	4360,
-	2267,
-	4809,
-	2267,
-	5869,
-	5869,
-	5869,
-	5994,
-	5869,
-	5994,
+	4361,
+	2268,
+	4810,
+	5870,
+	2268,
+	5870,
+	5870,
+	5870,
+	5995,
+	5870,
+	5995,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -102,7 +106,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGe
 const Il2CppCodeGenModule g_UnityEngine_AssetBundleModule_CodeGenModule = 
 {
 	"UnityEngine.AssetBundleModule.dll",
-	18,
+	19,
 	s_methodPointers,
 	0,
 	NULL,

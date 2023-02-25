@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 using TigerForge;
 using DG.Tweening;
 using UnityEngine.Localization.Settings;
+using Google.Play.Review;
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -49,6 +50,8 @@ public class MainMenuManager : MonoBehaviour
     public bool acKapa_Karisik;
 
     string hangiIslemHangiSeviye;
+    private ReviewManager _reviewManager;
+    PlayReviewInfo _playReviewInfo;
 
     EasyFileSave myFile;
     public TMP_Text txtIslem;
@@ -81,6 +84,15 @@ public class MainMenuManager : MonoBehaviour
 
     void Start()
     {
+        _reviewManager = new ReviewManager();
+
+        try{ 
+            StartCoroutine(review());
+        }
+        catch{}
+
+        
+
         Debug.Log("üyelik durumu :"+uyelikDurumu);
 
         audioSource = GetComponent<AudioSource>();
@@ -122,6 +134,33 @@ public class MainMenuManager : MonoBehaviour
         }
         
     }
+
+    IEnumerator review()
+    {
+        yield return new WaitForSeconds(5f);
+
+        var requestFlowOperation = _reviewManager.RequestReviewFlow();
+        yield return requestFlowOperation;
+        if (requestFlowOperation.Error != ReviewErrorCode.NoError)
+        {
+            // Log error. For example, using requestFlowOperation.Error.ToString().
+            yield break;
+        }
+        _playReviewInfo = requestFlowOperation.GetResult();
+        var launchFlowOperation = _reviewManager.LaunchReviewFlow(_playReviewInfo);
+        yield return launchFlowOperation;
+        _playReviewInfo = null; // Reset the object
+        if (launchFlowOperation.Error != ReviewErrorCode.NoError)
+        {
+            // Log error. For example, using requestFlowOperation.Error.ToString().
+            yield break;
+        }
+        // The flow has finished. The API does not indicate whether the user
+        // reviewed or not, or even whether the review dialog was shown. Thus, no
+        // matter the result, we continue our app flow.
+
+    }
+
 
     void Update()
     {

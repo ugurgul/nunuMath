@@ -40,9 +40,11 @@ extern void DownloadHandlerAssetBundle_get_autoLoadAssetBundle_m2639C74CDA9554AD
 extern void DownloadHandlerAssetBundle_set_autoLoadAssetBundle_m33EFE2889EEC8AC2C81066DB7FF415AA315B53AE (void);
 // 0x0000000E System.Boolean UnityEngine.Networking.DownloadHandlerAssetBundle::get_isDownloadComplete()
 extern void DownloadHandlerAssetBundle_get_isDownloadComplete_mBB1BB4E3CE2DD3096D7B7D08D126A7CF5F6E4D9A (void);
-// 0x0000000F System.IntPtr UnityEngine.Networking.DownloadHandlerAssetBundle::CreateCached_Injected(UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.String,UnityEngine.Hash128&,System.UInt32)
+// 0x0000000F UnityEngine.AssetBundle UnityEngine.Networking.DownloadHandlerAssetBundle::GetContent(UnityEngine.Networking.UnityWebRequest)
+extern void DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4 (void);
+// 0x00000010 System.IntPtr UnityEngine.Networking.DownloadHandlerAssetBundle::CreateCached_Injected(UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.String,UnityEngine.Hash128&,System.UInt32)
 extern void DownloadHandlerAssetBundle_CreateCached_Injected_mC703DBCA3F725338364D3E9B37AF916E4272F250 (void);
-static Il2CppMethodPointer s_methodPointers[15] = 
+static Il2CppMethodPointer s_methodPointers[16] = 
 {
 	UnityWebRequestAssetBundle_GetAssetBundle_mA08565578A5E7A07140D4C6327FD9B51E14D99F9,
 	UnityWebRequestAssetBundle_GetAssetBundle_m1701951B58D909D4FE4C62B86F4BF86C101DAB6B,
@@ -58,31 +60,33 @@ static Il2CppMethodPointer s_methodPointers[15] =
 	DownloadHandlerAssetBundle_get_autoLoadAssetBundle_m2639C74CDA9554AD6CB1EC1C7CBD1AAEB8518E2D,
 	DownloadHandlerAssetBundle_set_autoLoadAssetBundle_m33EFE2889EEC8AC2C81066DB7FF415AA315B53AE,
 	DownloadHandlerAssetBundle_get_isDownloadComplete_mBB1BB4E3CE2DD3096D7B7D08D126A7CF5F6E4D9A,
+	DownloadHandlerAssetBundle_GetContent_m9E279B7987A8ADAB0D0B441BAB8C5A61C7DEB7C4,
 	DownloadHandlerAssetBundle_CreateCached_Injected_mC703DBCA3F725338364D3E9B37AF916E4272F250,
 };
-static const int32_t s_InvokerIndices[15] = 
+static const int32_t s_InvokerIndices[16] = 
 {
-	8586,
-	7988,
-	7404,
-	7363,
+	8587,
+	7989,
+	7405,
+	7364,
+	6549,
+	2867,
+	1088,
+	2867,
+	1570,
+	5870,
+	5870,
+	5786,
+	4810,
+	5786,
+	8587,
 	6548,
-	2866,
-	1087,
-	2866,
-	1569,
-	5869,
-	5869,
-	5785,
-	4809,
-	5785,
-	6547,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAssetBundleModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAssetBundleModule_CodeGenModule = 
 {
 	"UnityEngine.UnityWebRequestAssetBundleModule.dll",
-	15,
+	16,
 	s_methodPointers,
 	0,
 	NULL,

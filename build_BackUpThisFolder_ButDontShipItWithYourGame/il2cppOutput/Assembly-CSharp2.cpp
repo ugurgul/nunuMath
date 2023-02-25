@@ -396,6 +396,8 @@ struct MethodInfo_t;
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+// Google.Play.Review.PlayReviewInfo
+struct PlayReviewInfo_t16F8CCF637F3E1B68D14ADD59E23CA9C1D614264;
 // UnityEngine.UI.RawImage
 struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179;
 // UnityEngine.UI.RectMask2D
@@ -404,6 +406,8 @@ struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
 // UnityEngine.Renderer
 struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+// Google.Play.Review.ReviewManager
+struct ReviewManager_t879B67B4D7B1F5B4161BB7FADC0865BD65941482;
 // UnityEngine.UI.Selectable
 struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
 // DG.Tweening.Sequence
@@ -3331,10 +3335,14 @@ struct MainMenuManager_tF7A52AE15B4646A6080DC28A83B82CB4ACF46B94  : public MonoB
 	bool ___acKapa_Karisik_52;
 	// System.String MainMenuManager::hangiIslemHangiSeviye
 	String_t* ___hangiIslemHangiSeviye_53;
+	// Google.Play.Review.ReviewManager MainMenuManager::_reviewManager
+	ReviewManager_t879B67B4D7B1F5B4161BB7FADC0865BD65941482* ____reviewManager_54;
+	// Google.Play.Review.PlayReviewInfo MainMenuManager::_playReviewInfo
+	PlayReviewInfo_t16F8CCF637F3E1B68D14ADD59E23CA9C1D614264* ____playReviewInfo_55;
 	// TigerForge.EasyFileSave MainMenuManager::myFile
-	EasyFileSave_tFA6406F30D484886A2FBBEE7971DB0127F1252C0* ___myFile_54;
+	EasyFileSave_tFA6406F30D484886A2FBBEE7971DB0127F1252C0* ___myFile_56;
 	// TMPro.TMP_Text MainMenuManager::txtIslem
-	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___txtIslem_55;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___txtIslem_57;
 };
 
 // SonucManager
