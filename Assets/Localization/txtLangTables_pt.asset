@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: txtLangTables_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt
+  m_SharedData: {fileID: 11400000, guid: a5243378ce129b34690c0e44a1584f18, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 280443445248
+    m_Localized: SIM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15926640205824
+    m_Localized: "Adi\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33751895334912
+    m_Localized: "subtra\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34039221936128
+    m_Localized: multiplicar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34344089116672
+    m_Localized: "divis\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34592945561600
+    m_Localized: misturado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35127979368448
+    m_Localized: "Ao se inscrever, voc\xEA nunca precisa assistir a an\xFAncios,
+      Al\xE9m disso, voc\xEA nos ajuda a melhorar nosso aplicativo\nobrigado :)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35176830427136
+    m_Localized: 'Inscrever-se
+
+      (0,99 $)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35248729186304
+    m_Localized: REMOVER PROPAGANDAS!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35255242940416
+    m_Localized: "N\xC3O"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35353477734400
+    m_Localized: "Voc\xEA realmente quer sair?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35405004759040
+    m_Localized: "Deseja redefinir suas pontua\xE7\xF5es?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35455395127296
+    m_Localized: "DEFINI\xC7\xD5ES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35485115965440
+    m_Localized: Som
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489041833984
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489993940992
+    m_Localized: "Notifica\xE7\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35491197706240
+    m_Localized: "F\xC1CIL"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35492443414528
+    m_Localized: "M\xC9DIO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35494435708928
+    m_Localized: DURO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35694311071744
+    m_Localized: "Deseja retornar \xE0 p\xE1gina inicial?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35695749718016
+    m_Localized: apontar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35697314193408
+    m_Localized: Pagina inicial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35699151298560
+    m_Localized: Jogar de novo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35701277810688
+    m_Localized: "Parab\xE9ns!\nA primeira ins\xEDgnia correta!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35703169441792
+    m_Localized: "Parab\xE9ns!\nO Emblema 10 Correto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35704939438080
+    m_Localized: "Parab\xE9ns!\nO Emblema 100 Correto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35706705240064
+    m_Localized: "Parab\xE9ns!\nO Emblema 500 Correto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35709519618048
+    m_Localized: "Parab\xE9ns!\nO Emblema 1000 Correto!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: txtLangTables_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: a5243378ce129b34690c0e44a1584f18, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 280443445248
+    m_Localized: EVET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15926640205824
+    m_Localized: TOPLAMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33751895334912
+    m_Localized: "\xC7IKARMA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34039221936128
+    m_Localized: "\xC7ARPMA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34344089116672
+    m_Localized: "B\xD6LME"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34592945561600
+    m_Localized: "KARI\u015EIK"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35127979368448
+    m_Localized: "Abone oldu\u011Funuzda hi\xE7bir zaman reklamlar\u0131 izlemek
+      zorunda kalmazs\u0131n\u0131z, Ayr\u0131ca da uygulamam\u0131z\u0131 geli\u015Ftirmemize
+      destek olmu\u015F olursunuz\nTe\u015Fekk\xFCr ederiz :)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35176830427136
+    m_Localized: 'Abone Ol
+
+      (9,99 tl)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35248729186304
+    m_Localized: REKLAMLARI KALDIR!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35255242940416
+    m_Localized: HAYIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35353477734400
+    m_Localized: "Ger\xE7ekten \xC7\u0131k\u0131\u015F Yapmak \u0130stiyor Musunuz?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35405004759040
+    m_Localized: "Skorlar\u0131n\u0131z\u0131 S\u0131f\u0131rlamak \u0130stiyor Musunuz?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35455395127296
+    m_Localized: AYARLAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35485115965440
+    m_Localized: Ses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489041833984
+    m_Localized: "M\xFCzik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489993940992
+    m_Localized: Bildirimler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35491197706240
+    m_Localized: KOLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35492443414528
+    m_Localized: ORTA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35494435708928
+    m_Localized: ZOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35694311071744
+    m_Localized: "Ana Sayfaya Geri D\xF6nmek \u0130stiyor Musunuz?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35695749718016
+    m_Localized: puan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35697314193408
+    m_Localized: Ana Sayfa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35699151298560
+    m_Localized: Tekrar Oyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35701277810688
+    m_Localized: "Tebrikler!\n\u0130lk Do\u011Fru Rozeti!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35703169441792
+    m_Localized: "Tebrikler!\n10 Do\u011Fru Rozeti!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35704939438080
+    m_Localized: "Tebrikler!\n100 Do\u011Fru Rozeti!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35706705240064
+    m_Localized: "Tebrikler!\n500 Do\u011Fru Rozeti!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35709519618048
+    m_Localized: "Tebrikler!\n1000 Do\u011Fru Rozeti!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

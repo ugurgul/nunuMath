@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: txtLangTables Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: txtLangTables
+  m_TableCollectionNameGuidString: a5243378ce129b34690c0e44a1584f18
+  m_Entries:
+  - m_Id: 280443445248
+    m_Key: evet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15926640205824
+    m_Key: toplama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33751895334912
+    m_Key: cikarma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34039221936128
+    m_Key: carpma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34344089116672
+    m_Key: bolme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34592945561600
+    m_Key: karisik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35127979368448
+    m_Key: aciklama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35176830427136
+    m_Key: satinal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35248729186304
+    m_Key: satinalbaslik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35255242940416
+    m_Key: hayir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35353477734400
+    m_Key: cikis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35405004759040
+    m_Key: skor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35455395127296
+    m_Key: ayarlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35485115965440
+    m_Key: ses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489041833984
+    m_Key: muzik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489993940992
+    m_Key: bildirimler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35491197706240
+    m_Key: kolay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35492443414528
+    m_Key: orta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35494435708928
+    m_Key: zor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35694311071744
+    m_Key: geridon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35695749718016
+    m_Key: puan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35697314193408
+    m_Key: anasayfa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35699151298560
+    m_Key: tekraroyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35701277810688
+    m_Key: rozet1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35703169441792
+    m_Key: rozet10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35704939438080
+    m_Key: rozet100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35706705240064
+    m_Key: rozet500
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35709519618048
+    m_Key: rozet1000
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8804062996780023832
+  references:
+    version: 2
+    RefIds:
+    - rid: 8804062996780023832
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1675169971142

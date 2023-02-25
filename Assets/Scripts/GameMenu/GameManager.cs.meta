@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: 409025137acd23940860c277af3e031b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - kapatmaPanel: {instanceID: 0}
+  - cikisPanel: {instanceID: 0}
+  - btnA_Panel: {instanceID: 0}
+  - btnB_Panel: {instanceID: 0}
+  - btnC_Panel: {instanceID: 0}
+  - btnD_Panel: {instanceID: 0}
+  - txtSoru: {instanceID: 0}
+  - txtSoru_1: {instanceID: 0}
+  - txtSoru_2: {instanceID: 0}
+  - txt_Bolen: {instanceID: 0}
+  - txt_Bolunen: {instanceID: 0}
+  - btnA: {instanceID: 0}
+  - btnB: {instanceID: 0}
+  - btnC: {instanceID: 0}
+  - btnD: {instanceID: 0}
+  - imgAktif_A: {instanceID: 0}
+  - imgPasif_A: {instanceID: 0}
+  - imgPasif_D: {instanceID: 0}
+  - imgDogruBtn: {instanceID: 0}
+  - siklarPanel: {instanceID: 0}
+  - soruPanel: {instanceID: 0}
+  - siklarPanel_KapaAc: {instanceID: 0}
+  - toplama_Panel: {instanceID: 0}
+  - cikarma_Panel: {instanceID: 0}
+  - carpma_Panel: {instanceID: 0}
+  - bolme_Panel: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - audioCorrect: {fileID: 8300000, guid: b490ff02d02ff544aafb9edcf0bec19a, type: 3}
+  - audioFalse: {fileID: 8300000, guid: 715c70cc4f4d34b4980e3272a3c097ef, type: 3}
+  - audioFinish: {fileID: 8300000, guid: fe305a0d14e8bc44ab717db3e89a6f5f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

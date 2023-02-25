@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: txtLangTables_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: a5243378ce129b34690c0e44a1584f18, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 280443445248
+    m_Localized: SI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15926640205824
+    m_Localized: suma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33751895334912
+    m_Localized: "sustracci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34039221936128
+    m_Localized: multiplicar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34344089116672
+    m_Localized: "divisi\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34592945561600
+    m_Localized: mezclado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35127979368448
+    m_Localized: "Cuando te suscribes, nunca tienes que ver anuncios, Adem\xE1s,
+      nos ayudas a mejorar nuestra aplicaci\xF3n\nGracias :)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35176830427136
+    m_Localized: "Suscr\xEDbete\n(0,99 \u20AC)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35248729186304
+    m_Localized: "\xA1QUITAR ANUNCIOS!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35255242940416
+    m_Localized: NO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35353477734400
+    m_Localized: "\xBFRealmente desea salir?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35405004759040
+    m_Localized: "\xBFQuieres restablecer tus puntuaciones?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35455395127296
+    m_Localized: AJUSTES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35485115965440
+    m_Localized: Sonido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489041833984
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35489993940992
+    m_Localized: Notificaciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35491197706240
+    m_Localized: "F\xC1CIL"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35492443414528
+    m_Localized: MEDIO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35494435708928
+    m_Localized: DIFI'CIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35695749718016
+    m_Localized: punto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35694311071744
+    m_Localized: "\xBFQuieres volver a la p\xE1gina de inicio?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35697314193408
+    m_Localized: "p\xE1gina de inicio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35699151298560
+    m_Localized: Juega de nuevo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35701277810688
+    m_Localized: "\xA1Felicitaciones!\n\xA1Primera insignia correcta!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35703169441792
+    m_Localized: "\xA1Felicitaciones!\n\xA1La insignia de 10 correctos!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35704939438080
+    m_Localized: "\xA1Felicitaciones!\n\xA1La insignia de 100 correctos!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35706705240064
+    m_Localized: "\xA1Felicitaciones!\n\xA1La insignia de 500 correctos!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35709519618048
+    m_Localized: "\xA1Felicitaciones!\n\xA1La insignia de 1000 correctos!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

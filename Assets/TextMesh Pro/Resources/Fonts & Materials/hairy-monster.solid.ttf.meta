@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 778e2ed2edb99294e82e16df3137d833
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hairy Monster Solid
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d4cf498bb70a0ac4ebace7dbbf3a954b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
