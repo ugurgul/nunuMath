@@ -76,7 +76,6 @@ public class AyarlarManager : MonoBehaviour
         
         }
 
-
          if (PlayerPrefs.HasKey("ses"))
         {
             acKapaSes = (PlayerPrefs.GetInt("ses") != 0);
@@ -136,6 +135,7 @@ public class AyarlarManager : MonoBehaviour
             PlayerPrefs.SetInt("bildirimler",(acKapaBildirimler ? 1 : 0));
 
             PlayerPrefs.Save();
+            
 
         }
 
@@ -145,8 +145,6 @@ public class AyarlarManager : MonoBehaviour
     }
 
     private void OnApplicationPause(bool pauseStatus) {
-
-        
 
         if (acKapaBildirimler == true)
         {
@@ -159,8 +157,6 @@ public class AyarlarManager : MonoBehaviour
             AndroidNotificationCenter.CancelAllNotifications();
         }
 
-
-       
     }
 
 

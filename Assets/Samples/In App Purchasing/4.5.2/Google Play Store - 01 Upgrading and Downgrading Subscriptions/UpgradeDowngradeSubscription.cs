@@ -106,5 +106,10 @@ namespace Samples.Purchasing.GooglePlay.UpgradeDowngradeSubscription
         {
             GetComponent<UserWarningGooglePlayStore>().UpdateWarningText();
         }
+
+        public void OnInitializeFailed(InitializationFailureReason error, string message)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

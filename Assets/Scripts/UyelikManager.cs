@@ -86,6 +86,8 @@ public class UyelikManager : MonoBehaviour,IStoreListener
         MyDebug("Complete = " + return_complete.ToString());
 
     }
+
+    [Obsolete]
     public void RestorePurchases()
     {
         m_StoreExtensionProvider.GetExtension<IAppleExtensions>().RestoreTransactions(result => {
@@ -172,5 +174,10 @@ public class UyelikManager : MonoBehaviour,IStoreListener
     {
         
         Debug.Log(debug);
+    }
+
+    public void OnInitializeFailed(InitializationFailureReason error, string message)
+    {
+        throw new NotImplementedException();
     }
 }

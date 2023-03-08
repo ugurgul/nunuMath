@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
     Vector3 position,position2;
 
     MainMenuManager mainMenuManager;
-    AdController adController;
+    //AdController adController;
     public TMP_Text txtRozet;
 
 
@@ -80,7 +80,7 @@ public class GameManager : MonoBehaviour
 
         sonucManager = Object.FindObjectOfType<SonucManager>();
         mainMenuManager = Object.FindObjectOfType<MainMenuManager>();
-        adController = Object.FindObjectOfType<AdController>();
+        //adController = Object.FindObjectOfType<AdController>();
         audioSource = GetComponent<AudioSource>();
         //PlayerPrefs.DeleteKey("uyelikDurumu");
 
@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
 
         if(uyelikDurumu == 0)
         {
-           adController.ShowBanner();
+           //adController.ShowBanner();
         }
  
        position = new Vector3(txtSoru_2.transform.position.x,txtSoru_2.transform.position.y, txtSoru_2.transform.position.z);
@@ -149,11 +149,11 @@ public class GameManager : MonoBehaviour
         {
             if (uyelikDurumu == 0)
              {
-                adController.ShowInterstitial();
+                //adController.ShowInterstitial();
              }
             
             sonucManager.SonucPanelAcKapa(true);
-            adController.bannerView.Hide();
+            //adController.bannerView.Hide();
             SaveData();
             Destroy(gameObject);
             dogruAdet = 0;
@@ -1443,7 +1443,7 @@ public class GameManager : MonoBehaviour
    public void BtnCikisEvet()
     {    
         
-        adController.bannerView.Hide();
+        //adController.bannerView.Hide();
         SaveData();
        
         transition_Circle.transform.DOLocalMoveY(3380f,0.8f).SetEase(Ease.OutQuint);

@@ -104,5 +104,10 @@ namespace Samples.Purchasing.Core.BuyingSubscription
                     "For more information, see README.md";
             }
         }
+
+        public void OnInitializeFailed(InitializationFailureReason error, string message)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
