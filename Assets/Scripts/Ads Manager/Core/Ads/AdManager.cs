@@ -43,6 +43,7 @@ public class AdManager : MonoBehaviour
     private void Start()
     {
         Initialize();
+        
     }
 
     private void Initialize()

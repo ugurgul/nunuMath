@@ -10,7 +10,7 @@ using System;
 public class AdsUnity : IAdLibrary
 {
 
-    private string _androidGameId = "5195593", _iOSGameId = "5195592";
+    private string _androidGameId = "5195613", _iOSGameId = "5195612";
     string _androidInterstatialId = "Interstitial_Android", _iOSInterstatialId = "Interstitial_iOS";
     string _androidRewardedId = "Rewarded_Android", _iOSRewardedId = "Rewarded_iOS";
     string _androidBannerId ="Banner_Android", _iOSBannerId = "Banner_iOS";
